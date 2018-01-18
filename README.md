@@ -2,8 +2,8 @@
 支付宝新版支付支付后的异步回调，对应 面对面扫码支付、App支付、手机网站支付、PC支付
 
 ## 解决方案构成说明
-`AopSdk`为支付宝提供的Net版服务端Sdk,下载地址为： https://docs.open.alipay.com/54/103419/
-`AlipayAsyncNotify`为支付的异步回调辅助类
+`AopSdk`为支付宝提供的Net版服务端Sdk,下载地址为： https://docs.open.alipay.com/54/103419/  
+`AlipayAsyncNotify`为支付的异步回调辅助类  
 `AlipayAsyncNotifyWeb`为支付异步回调项目例子，包含MVC及WebApi的接入例子
 
 ### 修改及测试说明
