@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlipayAsyncNotify", "AlipayAsyncNotify\AlipayAsyncNotify.csproj", "{B11E0CB5-A8AE-45C4-9784-366B4F3CA5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopSdk", "alipay-sdk-NET-20180104135059\AopSdk.csproj", "{9C11CAE5-5188-4E71-825B-68FC3135728A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlipayAsyncNotifyWeb", "AlipayAsyncNotifyWeb\AlipayAsyncNotifyWeb.csproj", "{E6C63387-20E5-4249-953F-E63282FEA624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B11E0CB5-A8AE-45C4-9784-366B4F3CA5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11E0CB5-A8AE-45C4-9784-366B4F3CA5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11E0CB5-A8AE-45C4-9784-366B4F3CA5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11E0CB5-A8AE-45C4-9784-366B4F3CA5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C63387-20E5-4249-953F-E63282FEA624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C63387-20E5-4249-953F-E63282FEA624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C63387-20E5-4249-953F-E63282FEA624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C63387-20E5-4249-953F-E63282FEA624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {350FD126-B60A-4EAD-8B1B-C9F7C2131F58}
+	EndGlobalSection
+EndGlobal
