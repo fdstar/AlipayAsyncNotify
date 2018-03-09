@@ -10,7 +10,13 @@ namespace AlipayNotify.Domain
     /// </summary>
     public enum AlipaySignType
     {
+        /// <summary>
+        /// RSA2
+        /// </summary>
         RSA2 = 0,
+        /// <summary>
+        /// RSA
+        /// </summary>
         RSA = 1
     }
 }

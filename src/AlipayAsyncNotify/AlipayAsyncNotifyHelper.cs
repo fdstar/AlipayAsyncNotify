@@ -57,7 +57,7 @@ namespace AlipayNotify
             bool verifyFromAlipay = true, string mapiUrl = "https://mapi.alipay.com/gateway.do", string partnerKey = "seller_id", string notifyIdKey = "notify_id", string charsetKey = "charset", string signTypeKey = "sign_type")
         {
             var parameters = collection.Cast<string>().ToDictionary(k => k, v => collection[v]);
-            return Aop.Api.Util.AlipaySignature.RSACheckV1(parameters, alipayPublicKey, parameters[charsetKey], parameters[signTypeKey], keyFromFile)
+            return AlipaySignatureFromAopSdk.RSACheckV1(parameters, alipayPublicKey, parameters[charsetKey], parameters[signTypeKey], keyFromFile)
                 && await IsNotifiedFromAlipay(verifyFromAlipay, parameters[partnerKey], parameters[notifyIdKey], mapiUrl);
         }
         /// <summary>
