@@ -4,7 +4,7 @@ using System.Text;
 using System.Security.Cryptography;
 using System.IO;
 
-namespace AlipayNotify
+namespace AlipayAsyncNotify
 {
     /// <summary>
     /// 从支付宝官方sdk复制过来的代码

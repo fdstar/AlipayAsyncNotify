@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Web;
 
-namespace AlipayNotify.Domain
+namespace AlipayAsyncNotify.Domain
 {
     /// <summary>
     /// 支付宝wap支付异步回调 https://docs.open.alipay.com/203/105286/

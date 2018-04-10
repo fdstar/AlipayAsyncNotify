@@ -1,5 +1,5 @@
-﻿using AlipayNotify;
-using AlipayNotify.Domain;
+﻿using AlipayAsyncNotify;
+using AlipayAsyncNotify.Domain;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace AlipayNotify.Domain
+namespace AlipayAsyncNotify.Domain
 {
     /// <summary>
     /// 订单支付状态
