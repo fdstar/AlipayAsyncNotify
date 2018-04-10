@@ -1,6 +1,9 @@
 # AlipayAsyncNotify
 支付宝新版支付支付后的异步回调，对应 面对面扫码支付、App支付、手机网站支付、PC支付
 
+## .NET版本支持
+目前支持以下版本：`.NET45`、`.NET Standard 2.0`
+
 ## 解决方案构成说明
 `AopSdk`为支付宝提供的Net版服务端Sdk,下载地址为： https://docs.open.alipay.com/54/103419/   
 `AlipayAsyncNotify`为支付的异步回调辅助类，目前已将加解密相关代码复制到`AlipayAsyncNotify`，可见性为`internal`以保证不会与`AopSdk`冲突，所以实际已不再依赖`AopSdk`，支持Net45+、NetStandard2.0   
