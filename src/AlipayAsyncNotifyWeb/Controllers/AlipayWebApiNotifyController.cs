@@ -13,10 +13,10 @@ namespace AlipayAsyncNotifyWeb.Controllers
     public class AlipayWebApiNotifyController : ApiController
     {
         [HttpPost]
-        public async Task<string> Notify(FormDataCollection collection)
+        public async Task<HttpResponseMessage> Notify(FormDataCollection collection)
         {
             var right = await NotifyHelper.NotifyAndVerify(collection.ReadAsNameValueCollection());
-            return right ? "success" : "fail";
+            return new HttpResponseMessage { Content = new StringContent(right ? "success" : "fail", System.Text.Encoding.UTF8, "text/plain") };
         }
     }
 }
